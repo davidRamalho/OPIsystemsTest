@@ -6,7 +6,7 @@ One of the biggest challenges was getting the timezone settings and date manipul
 
 # Running the Application
 
-Run "npm install" on the root directory, then follow the steps below for the backend and frontend servers.
+Run "npm install" on the both the backend and frontend directories, then follow the steps below for the backend and frontend servers.
 
 Backend Server:
 Run the backend server first by opening the directory OPIsystemsTest/backend/ on your terminal of choice and running: 
