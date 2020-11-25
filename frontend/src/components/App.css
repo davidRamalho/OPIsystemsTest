@@ -1,0 +1,18 @@
+.temperature {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.humidity {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  align-self: center;
+}

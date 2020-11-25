@@ -1,0 +1,14 @@
+.timezone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 2em;
+  font-size: larger;
+}
+
+.picker {
+  padding-left: 5px;
+  width: 290px;
+  text-align: justify;
+}

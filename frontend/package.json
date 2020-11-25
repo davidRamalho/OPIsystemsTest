@@ -1,14 +1,23 @@
 {
-  "name": "opisystems-test",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-timezone-picker": "^2.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3001/"
 }
