@@ -22,4 +22,5 @@ To run the frontend server first open the directory OPIsystemsTest/frontend/ on 
 # Contact
 
 If you have any questions at all regarding the application, please contact me either via e-mail or phone: 
-david.m.ramalho@gmail / (403)383-6567
+email: david.m.ramalho@gmail 
+phone: (403)383-6567
