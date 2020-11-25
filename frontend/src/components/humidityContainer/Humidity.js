@@ -52,8 +52,8 @@ const HumidityGrid = (props) => {
             result.push(
               <Table.Row key = {result.length}>
                 <Table.Cell>{sensor.name}</Table.Cell>
-                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings Please Contact Customer Care</a></Table.Cell>
-                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings Please Contact Customer Care</a></Table.Cell>
+                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a></Table.Cell>
+                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a></Table.Cell>
               </Table.Row>
             );
           }
