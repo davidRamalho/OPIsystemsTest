@@ -33,6 +33,7 @@ const TemperatureGrid = (props) => {
     });
   };
 
+  /* Generates Table Rows with the correct data based on sensor type and readings data*/
   const renderRows = (readings, sensors) => {
     if (sensors) {
       const result = [];
