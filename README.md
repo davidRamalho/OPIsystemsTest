@@ -19,8 +19,12 @@ To run the frontend server first open the directory OPIsystemsTest/frontend/ on 
 - Front-end: React, Axios, Semantic-UI, CSS.
 - Back-end: Node, Express. 
 
+# Wireframe Planning
+
+While planning the frontend for this application I used moqups.com in order to have a clear plan of approach. Link: https://app.moqups.com/hVsFCVbeXS/view/page/ad64222d5
+
 # Contact
 
-If you have any questions at all regarding the application, please contact me either via e-mail or phone: 
-email: david.m.ramalho@gmail 
-phone: (403)383-6567
+If you have any questions at all regarding the application, feel free to contact me either via e-mail or phone: 
+Email: david.m.ramalho@gmail 
+Phone: (403)383-6567
