@@ -9,6 +9,10 @@
 
 .picker {
   padding-left: 5px;
-  width: 290px;
+  width: 300px;
   text-align: justify;
+}
+
+.select {
+  font-size: 1.2em;
 }

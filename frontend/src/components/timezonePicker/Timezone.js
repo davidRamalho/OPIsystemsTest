@@ -13,7 +13,7 @@ function Timezone(props) {
   
   return (
     <div className='timezone'>
-      <h4>
+      <h4 className='select'>
         Select Your Timezone - 
       </h4>
       <TimezonePicker
