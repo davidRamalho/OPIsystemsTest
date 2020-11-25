@@ -32,6 +32,8 @@ const HumidityGrid = (props) => {
     });
   };
 
+  /* Generates Table Rows with the correct data based on sensor type and readings data. 
+    Sensor #4 had no readings. Might indicate a faulty sensor. */
   const renderRows = (readings, sensors) => {
     if (sensors) {
       const result = [];
@@ -52,8 +54,12 @@ const HumidityGrid = (props) => {
             result.push(
               <Table.Row key = {result.length}>
                 <Table.Cell>{sensor.name}</Table.Cell>
-                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a></Table.Cell>
-                <Table.Cell negative> <Icon name='close' /><a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a></Table.Cell>
+                <Table.Cell negative> <Icon name='close' />
+                  <a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a>
+                </Table.Cell>
+                <Table.Cell negative> <Icon name='close' />
+                  <a href='http://www.advancedgrainmanagement.com/customer-care/' target="_blank">No Readings! Please Contact Customer Care</a>
+                </Table.Cell>
               </Table.Row>
             );
           }

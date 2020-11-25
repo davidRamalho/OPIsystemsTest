@@ -1,3 +1,5 @@
+/* Checks for current units state and updates the units state and temperature readings, 
+  readings are only updated for thermostat sensors */
 const temperatureConverter = (units, setUnits, temperatureReadings, setTemperatureReadings) => {
   if (units === '°C') {
     for (const reading of temperatureReadings) {
