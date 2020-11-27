@@ -28,5 +28,5 @@ While planning the frontend for this application I used moqups.com in order to h
 # Contact
 
 If you have any questions at all regarding the application, feel free to contact me either via e-mail or phone: 
-Email: david.m.ramalho@gmail 
+Email: david.m.ramalho@gmail.com
 Phone: (403)383-6567
